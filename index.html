@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CraftHaven - Your Marketplace for Handcrafted Goods</title>
+    <link rel="stylesheet" href="./css/unified-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">
+            <div style="display: flex; align-items: center; gap: 8px; padding: 8px 15px; background: linear-gradient(135deg, #ff6b6b, #4ecdc4, #45b7d1); border-radius: 25px; box-shadow: 0 4px 15px rgba(0,0,0,0.2); animation: glow 2s ease-in-out infinite alternate;">
+                <span style="font-size: 24px; animation: bounce 1.5s ease-in-out infinite;">🎨</span>
+                <span style="font-weight: bold; font-size: 18px; color: white; text-shadow: 1px 1px 2px rgba(0,0,0,0.5); letter-spacing: 1px;">Craft</span>
+                <span style="font-size: 20px; animation: spin 2s linear infinite;">⚡</span>
+                <span style="font-weight: bold; font-size: 18px; color: white; text-shadow: 1px 1px 2px rgba(0,0,0,0.5); letter-spacing: 1px;">Haven</span>
+                <span style="font-size: 16px; animation: pulse 1s ease-in-out infinite;">🌟</span>
+            </div>
+        </a>
+        
+        <div class="nav-search">
+            <!-- <div class="nav-searchh-category">
+                <p>All</p>
+                <img src="./dropdown-icon.png" width="15px" height="12" alt="">
+            </div> -->
+            <input type="text" class="nav-search-input" placeholder="Search on Crafthaven">
+            <img src="./images/icons/search-icon.png" class="nav-search-icon" alt="Search">
+            <!-- <div class="input-group">
+                <div class="form-outline" data-mdb-input-init>
+                  <input type="search" id="form1" class="form-control" />
+                  <label class="form-label" for="form1">Search</label>
+                </div>
+                <button type="button" class="btn btn-primary" data-mdb-ripple-init>
+                <i class="fas fa-search"></i>
+                </button>
+            </div> -->
+        </div>
+        
+        <div class="nav-text">
+            <a class="nav-link" href="signup.html"><i class="fas fa-user" style="font-size: 20px;"></i></a>
+            <!-- <h1>Account and Lists <img src="./images/icons/dropdown-icon.png" width="15px" alt=""></h1> -->
+        </div>
+        
+        <a href="checkout.html" class="nav-cart">
+            <span style="font-size: 28px; cursor: pointer; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.2)'" onmouseout="this.style.transform='scale(1)'">🛒</span>
+        </a>
+    </nav>
+    <div class="nav-bottom">
+        <div>
+            <img src="./images/icons/menu-icon.png" width="25px" alt="">
+            <p>All</p>
+        </div>
+        
+        <a class="nav-link" href="service.html">Customer Service</a>
+        
+        <a class="nav-link" href="signup.html">Register Now</a>
+        
+        <a class="nav-link" href="sell.html">Sell on Crafthaven</a>
+    </div>
+    <div class="header-slider">
+        <a href="#" class="control_prev">&#129144</a>
+        <a href="#" class="control_next">&#129146</a>
+        <ul>
+            <li><img src="./images/banners/bg2.png" class="header-img" alt="Banner 1"></li>
+            <li><img src="./images/banners/s2.png" class="header-img" alt="Banner 2"></li>
+            <li><img src="./images/banners/s3.png" class="header-img" alt="Banner 3"></li>
+            <li><img src="./images/banners/s4.png" class="header-img" alt="Banner 4"></li>
+            <li><img src="./images/banners/bg4.png" class="header-img" alt="Banner 5"></li>
+            <li><img src="./images/banners/s1.png" class="header-img" alt="Banner 6"></li>
+        </ul>
+
+    <div class="box-row header-box">
+        <div class="box-col">
+            <h3>Free international returns</h3>
+            <img src="./images/categories/a1.png" alt="Returns">
+            <a href="./checkout.html">Shop More</a>
+        </div>
+        <div class="box-col">
+            <h3>Lunar New Year</h3>
+            <img src="./images/categories/a2.png" alt="Lunar New Year">
+            <a href="./checkout.html">Shop More</a>
+        </div>
+        <div class="box-col">
+            <h3>Toy under $25</h3>
+            <img src="./images/categories/a3.png" alt="Toys">
+            <a href="./checkout.html">Shop More</a>
+        </div>
+        <div class="box-col">
+            <h3>Handcrafts</h3>
+            <img src="./images/categories/b5.png" alt="Handcrafts">
+            <a href="./checkout.html">Shop More</a>
+        </div>
+    </div>
+    <div class="box-row">
+        <div class="box-col">
+            <h3>Grooming Products</h3>
+            <img src="./images/categories/b1.png" alt="Grooming Products">
+            <a href="./checkout.html">Shop More</a>
+        </div>
+        <div class="box-col">
+            <h3>Handcrafts</h3>
+            <img src="./images/categories/b2.png" alt="Handcrafts">
+            <a href="checkout.html">Shop More</a>
+        </div>
+        <div class="box-col">
+            <h3>Pets Food</h3>
+            <img src="./images/categories/b3.png" alt="Pets Food">
+            <a href="checkout.html">Shop More</a>
+        </div>
+        <div class="box-col">
+            <h3>Fashion Mart</h3>
+            <img src="./images/categories/b4.png" alt="Fashion Mart">
+            <a href="checkout.html">Shop More</a>
+        </div>
+    </div>
+
+    <div class="product-slider">
+        <h2>Best Seller in Sports & Outdoors</h2>
+        <div class="products">
+            <img src="./images/products/p1.png" alt="Product 1">
+            <img src="./images/products/p2.png" alt="Product 2">
+            <img src="./images/products/p3.png" alt="Product 3">
+            <img src="./images/products/p4.png" alt="Product 4">
+            <img src="./images/products/p5.png" alt="Product 5">
+            <img src="./images/products/p6.png" alt="Product 6">
+            <img src="./images/products/p7.png" alt="Product 7">
+            <img src="./images/products/p8.png" alt="Product 8">
+            <img src="./images/products/p9.png" alt="Product 9">
+            <img src="./images/products/p10.png" alt="Product 10">
+        </div>
+    </div>
+
+    <div class="box-row">
+        <div class="box-col">
+            <h3>Historical Artifacts</h3>
+            <img src="./images/categories/w1.png" alt="Historical Artifacts">
+            <a href="./checkout.html">Shop More</a>
+        </div>
+        <div class="box-col">
+            <h3>Furnitures</h3>
+            <img src="./images/categories/w2.png" alt="Furnitures">
+            <a href="./checkout.html">Shop More</a>
+        </div>
+        <div class="box-col">
+            <h3>Tables</h3>
+            <img src="./images/categories/w3.png" alt="Tables">
+            <a href="./checkout.html">Shop More</a>
+        </div>
+        <div class="box-col">
+            <h3>Woolen Clothes</h3>
+            <img src="./images/categories/w4.png" alt="Woolen Clothes">
+            <a href="./checkout.html">Shop More</a>
+        </div>
+    </div>
+
+    <div class="product-slider-with-price">
+        <h2>Best Deals under 25</h2>
+        <div class="products">
+            <div class="product-card">
+                <div class="product-img-container">
+                    <img src="./images/products/f1.png" alt="Product 1">
+                </div>
+                <div class="product-offer">
+                    <p>27% off</p> <span>Deal</span>
+                </div>
+                <p class="product-price">$ <span>14.49</span> List Price:$19.95</p>
+                <h4>This product is the best for you</h4>
+            </div>
+            <div class="product-card">
+                <div class="product-img-container">
+                    <img src="./images/products/f2.png" alt="Product 2">
+                </div>
+                <div class="product-offer">
+                    <p>27% off</p> <span>Deal</span>
+                </div>
+                <p class="product-price">$ <span>14.49</span> List Price:$19.95</p>
+                <h4>This product is the best for you</h4>
+            </div>
+            <div class="product-card">
+                <div class="product-img-container">
+                    <img src="./f3.png" alt="">
+                </div>
+                <div class="product-offer">
+                    <p>27% off</p> <span>Deal</span>
+                </div>
+                <p class="product-price">$ <span>14.49</span> List Price:$19.95</p>
+                <h4>This product is the best for you</h4>
+            </div>
+            <div class="product-card">
+                <div class="product-img-container">
+                    <img src="./f4.png" alt="">
+                </div>
+                <div class="product-offer">
+                    <p>27% off</p> <span>Deal</span>
+                </div>
+                <p class="product-price">$ <span>14.49</span> List Price:$19.95</p>
+                <h4>This product is the best for you</h4>
+            </div>
+            <div class="product-card">
+                <div class="product-img-container">
+                    <img src="./f5.png" alt="">
+                </div>
+                <div class="product-offer">
+                    <p>27% off</p> <span>Deal</span>
+                </div>
+                <p class="product-price">$ <span>14.49</span> List Price:$19.95</p>
+                <h4>This product is the best for you</h4>
+            </div>
+            <div class="product-card">
+                <div class="product-img-container">
+                    <img src="./f6.png" alt="">
+                </div>
+                <div class="product-offer">
+                    <p>27% off</p> <span>Deal</span>
+                </div>
+                <p class="product-price">$ <span>14.49</span> List Price:$19.95</p>
+                <h4>This product is the best for you</h4>
+            </div>
+            <div class="product-card">
+                <div class="product-img-container">
+                    <img src="./f7.png" alt="">
+                </div>
+                <div class="product-offer">
+                    <p>27% off</p> <span>Deal</span>
+                </div>
+                <p class="product-price">$ <span>14.49</span> List Price:$19.95</p>
+                <h4>This product is the best for you</h4>
+            </div>
+            <div class="product-card">
+                <div class="product-img-container">
+                    <img src="./f8.png" alt="">
+                </div>
+                <div class="product-offer">
+                    <p>27% off</p> <span>Deal</span>
+                </div>
+                <p class="product-price">$ <span>14.49</span> List Price:$19.95</p>
+                <h4>This product is the best for you</h4>
+            </div>
+            <div class="product-card">
+                <div class="product-img-container">
+                    <img src="./f9.png" alt="">
+                </div>
+                <div class="product-offer">
+                    <p>27% off</p> <span>Deal</span>
+                </div>
+                <p class="product-price">$ <span>14.49</span> List Price:$19.95</p>
+                <h4>This product is the best for you</h4>
+            </div>
+            <div class="product-card">
+                <div class="product-img-container">
+                    <img src="./f10.png" alt="">
+                </div>
+                <div class="product-offer">
+                    <p>27% off</p> <span>Deal</span>
+                </div>
+                <p class="product-price">$ <span>14.49</span> List Price:$19.95</p>
+                <h4>This product is the best for you</h4>
+            </div>
+            <div class="product-card">
+                <div class="product-img-container">
+                    <img src="./f11.png" alt="">
+                </div>
+                <div class="product-offer">
+                    <p>27% off</p> <span>Deal</span>
+                </div>
+                <p class="product-price">$ <span>14.49</span> List Price:$19.95</p>
+                <h4>This product is the best for you</h4>
+            </div>
+        </div>
+    </div>
+
+    <div class="product-slider">
+        <h2>Best Seller !!!</h2>
+        <div class="products">
+            <img src="./images/products/f12.png" alt="Best Seller 1">
+            <img src="./images/products/f13.png" alt="Best Seller 2">
+            <img src="./images/products/f14.png" alt="Best Seller 3">
+            <img src="./images/products/f21.png" alt="Best Seller 4">
+            <img src="./images/products/f15.png" alt="Best Seller 5">
+            <img src="./images/products/f16.png" alt="Best Seller 6">
+            <img src="./images/products/f17.png" alt="Best Seller 7">
+            <img src="./images/products/f18.png" alt="Best Seller 8">
+            <img src="./images/products/f19.png" alt="Best Seller 9">
+            <img src="./images/products/f20.png" alt="Best Seller 10">
+        </div>
+    </div>
+
+
+    <div class="box-row">
+        <div class="box-col">
+            <h3>Chairs</h3>
+            <img src="./images/categories/b7.png" alt="Chairs">
+            <a href="./checkout.html">Shop More</a>
+        </div>
+        <div class="box-col">
+            <h3>Bags</h3>
+            <img src="./images/categories/b10.png" alt="Bags">
+            <a href="./checkout.html">Shop More</a>
+        </div>
+        <div class="box-col">
+            <h3>Laptops</h3>
+            <img src="./images/categories/b9.png" alt="Laptops">
+            <a href="./checkout.html">Shop More</a>
+        </div>
+        <div class="box-col">
+            <h3>Stationary</h3>
+            <img src="./images/categories/b8.png" alt="Stationary">
+            <a href="./checkout.html">Shop More</a>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-social">
+                <a href="#!" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#!" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#!" aria-label="Google"><i class="fab fa-google"></i></a>
+                <a href="#!" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#!" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#!" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+            <div>
+                <h3>CraftHaven</h3>
+                <p>Your marketplace for handcrafted goods</p>
+            </div>
+        </div>
+        <div class="footer-text">
+            <p>&copy; 2024 CraftHaven. Made with ❤️ by Piyush Jaiswal</p>
+        </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+    <script src="./js/enhanced-features.js"></script>
+</body>
+</html>

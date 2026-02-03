@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Successful - CraftHaven</title>
+    <link rel="stylesheet" href="./css/unified-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">
+            <div style="display: flex; align-items: center; gap: 8px; padding: 8px 15px; background: linear-gradient(135deg, #ff6b6b, #4ecdc4, #45b7d1); border-radius: 25px; box-shadow: 0 4px 15px rgba(0,0,0,0.2); animation: glow 2s ease-in-out infinite alternate;">
+                <span style="font-size: 24px; animation: bounce 1.5s ease-in-out infinite;">🎨</span>
+                <span style="font-weight: bold; font-size: 18px; color: white; text-shadow: 1px 1px 2px rgba(0,0,0,0.5); letter-spacing: 1px;">Craft</span>
+                <span style="font-size: 20px; animation: spin 2s linear infinite;">⚡</span>
+                <span style="font-weight: bold; font-size: 18px; color: white; text-shadow: 1px 1px 2px rgba(0,0,0,0.5); letter-spacing: 1px;">Haven</span>
+                <span style="font-size: 16px; animation: pulse 1s ease-in-out infinite;">🌟</span>
+            </div>
+        </a>
+        
+        <div class="nav-search">
+            <input type="text" class="nav-search-input" placeholder="Search on CraftHaven">
+            <img src="./images/icons/search-icon.png" class="nav-search-icon" alt="Search">
+        </div>
+        
+        <div class="nav-text">
+            <a class="nav-link" href="signup.html"><i class=""fas fa-user"" style=""font-size: 20px;""></i></a>
+            <h1>Account and Lists <img src="./images/icons/dropdown-icon.png" width="15px" alt=""></h1>
+        </div>
+        
+        <a href="checkout.html" class="nav-cart">
+            <span style="font-size: 28px; cursor: pointer; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.2)'" onmouseout="this.style.transform='scale(1)'">🛒</span>
+        </a>
+    </nav>
+    
+    <div class="nav-bottom">
+        <div>
+            <img src="./images/icons/menu-icon.png" width="25px" alt="">
+            <p>All</p>
+        </div>
+        <a class="nav-link" href="service.html">Customer Service</a>
+        <a class="nav-link" href="signup.html">Register Now</a>
+        <a class="nav-link" href="sell.html">Sell on CraftHaven</a>
+    </div>
+
+    <div class="status-container success-container">
+        <div style="background: #e8f5e8; padding: 40px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); animation: fadeInUp 0.6s ease;">
+            <div style="text-align: center; margin-bottom: 30px;">
+                <i class="fas fa-check-circle" style="font-size: 80px; color: #27ae60; margin-bottom: 20px;"></i>
+            </div>
+            
+            <h1 style="color: #27ae60; text-align: center; margin-bottom: 20px;">Payment Successful!</h1>
+            
+            <p style="text-align: center; font-size: 18px; color: #2c3e50; margin-bottom: 30px;">
+                Thank you for your purchase! Your order has been confirmed and will be processed shortly.
+            </p>
+            
+            <div style="background: #fff; padding: 25px; border-radius: 15px; margin-bottom: 30px; box-shadow: 0 3px 15px rgba(0,0,0,0.1);">
+                <h3 style="color: #2c3e50; margin-bottom: 20px; text-align: center;"><i class="fas fa-receipt"></i> Order Details</h3>
+                <div style="display: flex; justify-content: space-between; margin-bottom: 10px; padding: 10px 0; border-bottom: 1px solid #ecf0f1;">
+                    <span><strong>Order Number:</strong></span>
+                    <span>#CH-2024-001234</span>
+                </div>
+                <div style="display: flex; justify-content: space-between; margin-bottom: 10px; padding: 10px 0; border-bottom: 1px solid #ecf0f1;">
+                    <span><strong>Total Amount:</strong></span>
+                    <span style="color: #27ae60; font-weight: 600;">$148.74</span>
+                </div>
+                <div style="display: flex; justify-content: space-between; margin-bottom: 10px; padding: 10px 0; border-bottom: 1px solid #ecf0f1;">
+                    <span><strong>Payment Method:</strong></span>
+                    <span>Credit Card ending in ****1234</span>
+                </div>
+                <div style="display: flex; justify-content: space-between; padding: 10px 0;">
+                    <span><strong>Estimated Delivery:</strong></span>
+                    <span>3-5 business days</span>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-bottom: 30px;">
+                <p style="color: #7f8c8d; margin-bottom: 15px;">
+                    <i class="fas fa-envelope"></i> A confirmation email has been sent to your registered email address.
+                </p>
+                <p style="color: #7f8c8d;">
+                    <i class="fas fa-truck"></i> You will receive tracking information once your order ships.
+                </p>
+            </div>
+            
+            <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
+                <a href="index.html" class="btn" style="background: linear-gradient(135deg, #e74c3c, #c0392b); color: white; text-decoration: none;">
+                    <i class="fas fa-home"></i> Continue Shopping
+                </a>
+                <a href="#" class="btn" style="background: linear-gradient(135deg, #3498db, #2980b9); color: white; text-decoration: none;">
+                    <i class="fas fa-box"></i> Track Order
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-social">
+                <a href="#!" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#!" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#!" aria-label="Google"><i class="fab fa-google"></i></a>
+                <a href="#!" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#!" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#!" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+            <div>
+                <h3>CraftHaven</h3>
+                <p>Your marketplace for handcrafted goods</p>
+            </div>
+        </div>
+        <div class="footer-text">
+            <p>&copy; 2024 CraftHaven. Made with ❤️ by Piyush Jaiswal</p>
+        </div>
+    </footer>
+    <script src="./js/enhanced-features.js"></script>
+</body>
+</html>
